@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-        <meta
+		<meta
 			http-equiv="X-UA-Compatible"
 			content="IE=edge"
 		/>
@@ -15,6 +15,69 @@
 			content="Rupam Barui"
 		/>
 		<title>Tic Tac Toe</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="style.css"
+		/>
 	</head>
-	<body></body>
+	<body>
+		<nav>
+			<ul>
+				<li>
+					<a
+						href="#"
+						id="wordmark"
+						>TIC TAC TOE</a
+					>
+				</li>
+			</ul>
+		</nav>
+		<div class="gameContainer">
+			<div class="container">
+				<div class="line"></div>
+				<div class="box bt-0 bl-0 border-radius-top-left">
+					<span class="boxText"></span>
+				</div>
+				<div class="box bt-0">
+					<span class="boxText"></span>
+				</div>
+				<div class="box bt-0 br-0 border-radius-top-right">
+					<span class="boxText"></span>
+				</div>
+				<div class="box bl-0">
+					<span class="boxText"></span>
+				</div>
+				<div class="box">
+					<span class="boxText"></span>
+				</div>
+				<div class="box br-0">
+					<span class="boxText"></span>
+				</div>
+				<div class="box bl-0 bb-0 border-radius-bottom-left">
+					<span class="boxText"></span>
+				</div>
+				<div class="box bb-0">
+					<span class="boxText"></span>
+				</div>
+				<div class="box bb-0 br-0 border-radius-bottom-right">
+					<span class="boxText"></span>
+				</div>
+			</div>
+			<div class="gameInfo">
+				<h1>Welcome to the TIC TAC TOE</h1>
+				<div>
+					<span class="info">Turn for X</span>
+					<button id="reset">Reset</button>
+				</div>
+				<div class="imgBox">
+					<img
+						src="./assets/excited.gif"
+						alt="excited GIF"
+					/>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
 </html>
